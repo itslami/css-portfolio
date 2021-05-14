@@ -1,0 +1,123 @@
+/* 
+COLOR PALETTE
+https://coolors.co/432371-714674-9f6976-cc8b79-faae7b
+#F7FFF7 - almost white 
+#0d021d -  this is for text... dark purple almost black
+#432371 - drak purple
+#343434 - dark grey - almost black 
+#714674 - this is for header colour... soft purple like lavender
+#9F6976 - pretty purplly brown 
+#CC8B79 - purple into yellow
+#FAAE7B - peachy orange.  
+#FFE66D - YELLOW
+*/
+
+/* Global styles 
+-------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #0d021d;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #ffe66d;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+ 
+  font-size: 45px;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+/* h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+p {
+  margin: 0;
+} */
+
+/* Profile
+-------------------------------*/
+header {
+  background: linear-gradient(#FFFFFF, #ffae03, #f56476, #532850, #0c0f0a); 
+  color: #f7fff7;
+}
+
+/* Projects 
+-------------------------------*/
+.projects {
+  background: #cc8b79;
+}
+.projects a {
+  color: #2f3061;
+}
+.projects .btn {
+  color: #f7fff7;
+  background: #432371;
+  text-decoration: none;
+  padding: 8px;
+  border: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+/* Work Experience 
+-------------------------------*/
+.work-experince {
+  background: #faae7b;
+}
+
+/* Education
+-------------------------------*/
+
+/* contact info 
+-------------------------------*/
+
+footer {
+  background: #343434;
+  color: #f7fff7;
+}
